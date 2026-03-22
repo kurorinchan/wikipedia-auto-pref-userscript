@@ -1,5 +1,5 @@
 Using violentmonkey (or any other greasemonkey script addon) install by specfying this URL
-https://github.com/kurorinchan/wikipedia-auto-pref-userscript/raw/main/user.js
+https://github.com/kurorinchan/wikipedia-auto-pref-userscript/raw/main/wikipedia-auto-pref.user.js
 
 Change preferences from the UI.
 For example,
