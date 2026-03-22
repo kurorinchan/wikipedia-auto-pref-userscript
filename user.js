@@ -97,7 +97,7 @@ const pickOption = (options, currentValue, promptTitle) => {
         labelOf(options, currentValue)
     );
     if (answer === null) return currentValue;
-    return options.find(({ label }) => label === answer)?.value ?? currentValue;
+    return options.find(({ label }) => label.toLowerCase() === answer.toLocaleLowerCase())?.value ?? currentValue;
 };
 
 // ── Config menu — one command per setting ────────────────────────────────────
